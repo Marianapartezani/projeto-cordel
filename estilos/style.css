@@ -1,0 +1,87 @@
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --font01: Verdana, Geneva, Tahoma, sans-serif;
+    --font02: "Passion One", sans-serif;
+    --font03: "Sriracha", cursive;
+}
+
+html, body{
+    min-height: 100%;
+    background-color: darkgray;
+    font-family: var(--font01);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    padding: 50px;
+    font-variant: small-caps;
+    font-family: var(--font02); 
+    font-size: 8vw;
+}
+
+header p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font03);
+    font-size: 3.5vw;
+}
+section p{
+    padding-bottom: 1.5em;
+}
+
+.normal{
+    background-color: white;
+}
+
+.imagem{
+    background-color: rgb(55, 54, 54);
+    color: white;
+    box-shadow: inset 3px 3px 9px rgba(0, 0, 0, 0.351);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+.imagem p{
+    background-color: rgba(0, 0, 0, 0.527);
+    display: inline-block;
+    padding: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.659);
+}
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+}
+section#img02{
+    background-image: url(../imagens/background002.jpg);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
